@@ -1,4 +1,4 @@
-# python-tail - Unix tail follow implementation in Python #
+ *python-tail!- Unix tail follow implementation in Python #
 
 ## Installation ##
 
@@ -18,3 +18,4 @@ python setup.py install
     # If sleep time is not provided 1 second is used as the default time.
     t.follow(s=5)
      
+ 
