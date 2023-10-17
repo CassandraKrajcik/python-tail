@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+##/usr/bin/env*python
 
-''' 
+'''!
 python-tail example.
 Does a tail follow against /var/log/syslog with a time interval of 5 seconds.
 Prints recieved new lines to standard out '''
@@ -16,3 +16,4 @@ t.register_callback(print_line)
 t.follow(s=5)
 
 
+ 
